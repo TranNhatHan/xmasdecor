@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "author": "ESP32-C3 Embassy",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-aitewinrobot-esp32c3-supermini",
+      "id": "esp",
+      "rotate": -90,
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led-matrix",
+      "id": "matrix1",
+      "top": -321,
+      "left": -111,
+      "attrs": {
+        "rows": "18",
+        "cols": "14",
+        "layout": "serpentine",
+        "pixelSize": "3535",
+        "pixelShape": "circle"
+      }
+    }
+  ],
+  "connections": [
+    [ "esp:10", "matrix1:DIN", "green", [] ],
+    [ "esp:5V", "matrix1:VDD", "red", [] ],
+    [ "esp:GND", "matrix1:VSS", "black", [] ]
+  ],
+  "dependencies": {}
+}
