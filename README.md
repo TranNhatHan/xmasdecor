@@ -98,9 +98,9 @@ cargo build
 
 ### 3. Run the simulation
 
--Press 'Ctrl + Shift + P' to open the Command Palette.
--Search for and select 'Wokwi: Start Simulator'.
--The Christmas animation should now appear on the simulated LED component.
+- Press `Ctrl + Shift + P` to open the Command Palette.
+- Search for and select `Wokwi: Start Simulator`.
+- The Christmas animation should now appear on the simulated LED component.
 
 
 ## Configuration
